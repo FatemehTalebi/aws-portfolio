@@ -1,0 +1,497 @@
+
+
+/* --------------------------------Responsive max-width 600px css------------------------------ */
+
+    
+body, html, h1, h2, h3, h4, h5, h6, p, a, button {
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+
+
+
+    .landing{
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: -1;
+       
+    }
+    .home-wrap{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+       
+    }
+    .home-inner{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center center;
+        
+    
+    }
+    .caption{
+        width: 100%;
+        top: 40%;
+        z-index: 1;
+        position: absolute;
+        color: white;
+    }
+   .caption h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-shadow: 0.08rem 0.08rem 0.35rem rgba(0, 0, 0, 0.55);
+    margin-bottom: 0.8rem;
+}
+
+.caption h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-shadow: 0.05rem 0.05rem 0.2rem rgba(0, 0, 0, 0.45);
+    margin-bottom: 1rem;
+}
+
+.caption p {
+    font-size: 1rem;
+    font-weight: 400;
+    max-width: 700px;
+    margin: 0 auto 1.5rem;
+    padding: 0 1rem;
+    line-height: 1.7;
+    text-shadow: 0.05rem 0.05rem 0.15rem rgba(0, 0, 0, 0.35);
+}
+    .caption .btn-start{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.2em;
+        letter-spacing: 0.1rem;
+        padding: 0.8rem 1.5rem;
+        
+    }
+    
+
+    .area{
+        margin: 0 auto;
+        padding: 4rem 2rem 1rem;
+
+    }
+    
+    .about .area {
+        padding: 1rem 2rem;
+        
+       
+    }
+    .area h2{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.8em;
+        font-weight: 100;
+    }
+
+    .about p{
+       
+        text-align:justify!important;
+        padding: 0 1rem;
+        
+    }
+    .about img{
+        width: 80%;
+        height: auto;
+            mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 20%);
+            -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 20%);
+         border-radius: 20px;
+
+    }
+ 
+
+    .area .btn-secondary{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.2em;
+        letter-spacing: 0.1rem;
+        padding: 0.8rem 1.5rem;
+        background-color: rgb(11, 189, 189);
+        margin: 1rem;
+    
+    }
+    .area .btn-secondary:hover{
+        background-color: rgb(7, 117, 117);
+        border-color:rgb(6, 94, 94); ;
+    }
+    .about{
+        width: 100%;
+    }
+
+
+    .services{
+        margin-bottom: 0px;
+        padding: 2rem 0rem 3rem;
+    }
+    
+    h2.title{
+        font-size: 1.8rem;
+        font-weight: 300;
+        padding-top: 1rem;
+    
+    
+    }
+
+   
+   
+    .underliner{
+        width: 60%;
+        height: 0.2rem;
+        margin: 2rem auto;
+        background-color: rgb(11, 189, 189);
+    }
+    .about .underliner{
+        width: 80%;
+        height: 0.2rem;
+        margin: 1rem auto;
+        background-color: rgb(11, 189, 189);
+
+    }
+    .service{
+        padding: 0px 1rem;
+    }
+    
+    .service i {
+        color: rgb(11, 189, 189);
+    }
+    .service h3{
+        font-size: 1rem;
+        font-weight: bold;
+        padding-bottom: 0.4rem;
+        /* padding-top: 0.4rem; */
+    }
+    
+    .service p{
+        font-size: 1rem;
+        text-align: justify;
+        word-break: break-all;
+    
+    }
+    
+
+    .group-background{
+        position: relative;
+    }
+    
+    .product-group .text-center{
+        padding-bottom: 3rem;
+    }
+    .fixed-wrap{
+        clip:rect(0 ,auto, auto, 0);
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1 !important;
+    
+    }
+    .fixed{
+        position: fixed;
+        top:0;
+        right: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+       
+        background-size: cover;
+        background-position: center center;
+    }
+    .dark{
+        background-color: rgba(2, 2, 2, 0.5);
+        padding: 1rem 2rem;
+        color: white;
+    }
+
+
+    
+    footer{
+        background-color: rgb(58, 103, 107);
+        color: azure;
+        padding: 2rem 0rem;
+    }
+    footer img {
+        height: 3rem;
+        margin: 1.6rem;
+    }
+    footer i {
+        font-size: 1.8rem;
+        color: white;
+        margin: 1.2rem 0.5rem 0rem 0rem ;
+    }
+    footer i:hover {
+        
+        color: rgb(0, 0, 0);
+        
+    }
+    .footer-hr{
+        margin-top: 1rem;
+        width: 50%;
+    }
+   .techno-title{
+    color: #b7e0d5 !important;
+        text-decoration: none;
+        
+    }
+    /* end footer */
+    
+    /* resume */
+
+    .resume-date{
+        float: right;
+    }
+    .contact-icon{
+        margin-right: 2rem;
+    }
+    .group-background{
+        position: relative;
+    }
+    #resume .col-12{
+        padding-bottom: 1rem;
+    }
+    #resume a{
+        color: rgb(7, 117, 117);
+    }
+    
+    #resume .service{
+        margin-bottom: 0px;
+        padding: 0.5rem 0.5rem ;
+        /* box-shadow: 2px 2px 3px 3px rgb(107, 148, 148) ; */
+    }
+    
+    
+    .product-group .text-center{
+        padding-bottom: 3rem;
+    }
+    .fixed-wrap{
+        clip:rect(0 ,auto, auto, 0);
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1 !important;
+    
+    }
+    .fixed{
+        position: fixed;
+        top:0;
+        right: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-image: url('../images/bg3.jpg');
+        background-size: cover;
+        background-position: center center;
+    }
+    .dark{
+        background-color: rgba(2, 2, 2, 0.5);
+        /* padding: 7rem 2rem; */
+        color: white;
+    }
+    
+    
+    .resume-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .www{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    /* end resume */
+    
+    .about-pic{
+        padding-top: 0;
+    }
+   
+    
+  
+
+/* --------------------------------------------resolution min 1200 ---------------------------------------- */
+@media screen and (min-width : 1200px) {
+    .www{
+        width: 50%;
+       
+    }
+
+
+   .caption h1 {
+        font-size: 3.4rem;
+        font-weight: 700;
+    }
+
+    .caption h3 {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .caption p {
+        font-size: 1.05rem;
+    }
+    /* end home */
+
+    /* about */
+    .about {
+    padding: 2rem 1rem;
+}
+    .about p{
+       
+        text-align: left;
+        
+    }
+
+    .area h2{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 2.2em;
+        font-weight: 700;
+    }
+
+    .about img{
+        width: 20rem;
+        height: auto;
+            mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 50%);
+            -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 50%);
+         border-radius: 20px;
+         float: right;
+
+    }
+
+    /* end about */
+
+    /* resume */
+    h2.title{
+        font-size: 2rem;
+        font-weight: 700;
+        padding-top: 1rem;
+    
+    
+    }
+    .service h3{
+        font-size: 1.5rem;
+        font-weight: bold;
+
+    }
+    .about{
+        margin: 0;
+       padding: 2rem 3rem 2rem;
+       
+
+        
+    }
+    /* end resume */
+}
+
+
+
+
+
+.title-white {
+    color: white;
+}
+
+.title-black {
+    color: black;
+}
+
+
+@media all and (max-width: 500px) {
+    .card-list {
+        flex-direction: column;
+    }
+}
+
+/* -----------animation--------- */
+
+@keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /* Class to apply the animation */
+  .animate-slide {
+    animation: slideIn 0.5s ease-out forwards; 
+  }
+  .no-pointer {
+    cursor: default !important; /* or cursor: auto; if you prefer */
+}
+
+.section-spacing {
+    margin: 3rem 0;
+}
+
+#portfolio .row {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+#portfolio {
+    overflow: auto;
+    
+}
+
+#portfolio .container {
+    padding-bottom: 1rem;
+}
+
+.fade-text {
+  transition: opacity 0.4s ease;
+}
+
+.section-light {
+    background-color: #ffffff;
+}
+
+.section-soft {
+    background-color: #f5f7f8;
+}
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+   
+}
+
+.skill-item {
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    cursor: default;
+}
+
+/* AWS */
+.skill-item.aws {
+    background-color: rgba(11, 189, 189, 0.12);
+    color: rgb(7, 117, 117);
+    border: 1px solid rgba(11, 189, 189, 0.3);
+}
+
+/* Dev */
+.skill-item.dev {
+    background-color: rgba(11, 189, 189, 0.12);
+    color: rgb(7, 117, 117);
+    border: 1px solid rgba(11, 189, 189, 0.3);
+}
+
+/* Hover */
+.skill-item:hover {
+    transform: translateY(-3px);
+}
